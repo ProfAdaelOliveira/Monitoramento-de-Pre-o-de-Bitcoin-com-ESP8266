@@ -1,2 +1,2 @@
-# Monitoramento-de-Pre-o-de-Bitcoin-com-ESP8266
-O projeto consiste em usar o esp8266 para monitorar o preço do Bitcoin a cada minuto(ou o tempo que definir), e enviar esse preço para um LCD 16x2 com mod I2C.
+# Monitoramento-de-Preco-do-Bitcoin-com-ESP8266
+Este projeto utiliza um ESP8266 para monitorar o preço do Bitcoin em tempo real, exibindo o valor em um display LCD I2C (16x2). O sistema consulta a API do CoinGecko a cada 5 segundos e atualiza o preço na tela. Em caso de falha de conexão, o projeto mantém o último valor exibido, garantindo que o usuário não perceba interrupções no funcionamento até que a conexão seja restabelecida.
